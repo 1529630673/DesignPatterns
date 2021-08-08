@@ -146,7 +146,7 @@ public class Singleton {
     }  
 }
 ```
-## 组合模式
+## 组合模式Composite Pattern
 
 组合模式（Composite Pattern），又叫部分整体模式，是用于把一组相似的对象当作一个单一的对象。组合模式依据树形结构来组合对象，用来表示部分以及整体层次。这种类型的设计模式属于结构型模式，它创建了对象组的树形结构。
 
@@ -244,7 +244,7 @@ Employee :[ Name : Laura, dept : Marketing, salary :10000 ]
 Employee :[ Name : Bob, dept : Marketing, salary :10000 ]
 ```
 
-## 外观模式
+## 外观模式Facade Pattern
 
 外观模式（Facade Pattern）隐藏系统的复杂性，并向客户端提供了一个客户端可以访问系统的接口。这种类型的设计模式属于结构型模式，它向现有的系统添加一个接口，来隐藏系统的复杂性。
 
@@ -332,7 +332,7 @@ Rectangle::draw()
 Square::draw()
 ```
 
-## 命令模式
+## 命令模式Command Pattern
 
 命令模式（Command Pattern）是一种数据驱动的设计模式，它属于行为型模式。请求以命令的形式包裹在对象中，并传给调用对象。调用对象寻找可以处理该命令的合适的对象，并把该命令传给相应的对象，该对象执行命令。  
 
@@ -438,7 +438,7 @@ Stock [ Name: ABC, Quantity: 10 ] bought
 Stock [ Name: ABC, Quantity: 10 ] sold
 ```
 
-## 中介者模式
+## 中介者模式Mediator Pattern
 
 中介者模式（Mediator Pattern）是用来降低多个对象和类之间的通信复杂性。这种模式提供了一个中介类，该类通常处理不同类之间的通信，并支持松耦合，使代码易于维护。中介者模式属于行为型模式。
   
@@ -500,7 +500,7 @@ Thu Jan 31 16:05:46 IST 2013 [Robert] : Hi! John!
 Thu Jan 31 16:05:46 IST 2013 [John] : Hello! Robert!
 ```
 
-## 观察者模式
+## 观察者模式Observer Pattern
 
 当对象间存在一对多关系时，则使用观察者模式（Observer Pattern）。比如，当一个对象被修改时，则会自动通知依赖它的对象。观察者模式属于行为型模式。  
 
@@ -622,7 +622,7 @@ Octal String: 12
 Binary String: 1010
 ```
 
-## 状态模式
+## 状态模式State Pattern
 
 在状态模式（State Pattern）中，类的行为是基于它的状态改变的。这种类型的设计模式属于行为型模式。
 
@@ -712,7 +712,7 @@ Player is in stop state
 Stop State
 ```
 
-## 策略模式
+## 策略模式Strategy Pattern
 
 在策略模式（Strategy Pattern）中，一个类的行为或其算法可以在运行时更改。这种类型的设计模式属于行为型模式。
 
@@ -796,7 +796,7 @@ public class StrategyPatternDemo {
 10 * 5 = 50
 ```
 
-## 访问者模式
+## 访问者模式Visitor Pattern
 
 在访问者模式（Visitor Pattern）中，我们使用了一个访问者类，它改变了元素类的执行算法。通过这种方式，元素的执行算法可以随着访问者改变而改变。这种类型的设计模式属于行为型模式。根据模式，元素对象已接受访问者对象，这样访问者对象就可以处理元素对象上的操作。  
 
